@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "web-test"
+version = "0.1.0"
+description = ""
+authors = ["d.larin <larin.dn@icloud.com>"]
+readme = "README.md"
+packages = [{include = "web_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
